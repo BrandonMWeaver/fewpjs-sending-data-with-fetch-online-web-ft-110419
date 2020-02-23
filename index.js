@@ -12,4 +12,6 @@ fetch("http://localhost:3000/dogs", {
   return response.json();
 }).then(function(object) {
   console.log(object);
+}).catch(function(error) {
+  alert("Error!");
 });
