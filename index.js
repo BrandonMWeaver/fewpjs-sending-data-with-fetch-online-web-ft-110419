@@ -7,8 +7,8 @@ function submitData(name, email)
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      dogName: "Byron",
-      dogBreed: "Poodle"
+      name: name,
+      email: email
     })
   }).then(function(response) {
     return response.json();
