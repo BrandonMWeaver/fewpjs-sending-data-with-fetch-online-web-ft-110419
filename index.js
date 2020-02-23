@@ -15,3 +15,8 @@ fetch("http://localhost:3000/dogs", {
 }).catch(function(error) {
   console.log(error.message);
 });
+
+function submitData(name, email)
+{
+  
+}
